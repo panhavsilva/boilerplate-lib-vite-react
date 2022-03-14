@@ -1,9 +1,9 @@
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tsConfigPaths from 'vite-tsconfig-paths'
-import { EsLinter, linterPlugin } from 'vite-plugin-linter'
 import dts from 'vite-plugin-dts'
-import { resolve } from 'node:path'
+import { EsLinter, linterPlugin } from 'vite-plugin-linter'
 
 // https://vitejs.dev/config/
 export default defineConfig(configEnv => ({
@@ -26,7 +26,7 @@ export default defineConfig(configEnv => ({
     lib: {
       entry: resolve('lib', 'main.tsx'),
       name: 'ReactFeatureFlag',
-      fileName: (format) => `my-lib-hello.${format}.js`,
+      fileName: (format) => `my-lib-hello-2.${format}.js`,
     },
     rollupOptions: {
       external: ['react'],
