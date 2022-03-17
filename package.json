@@ -16,33 +16,6 @@
     "ci": "yarn lint && yarn type-check",
     "prepare": "husky install"
   },
-  "peerDependencies": {
-    "react": ">=17.x"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.21",
-    "@types/react": "17.0.40",
-    "@types/react-dom": "17.0.13",
-    "@vitejs/plugin-react": "1.2.0",
-    "babel-eslint": "10.1.0",
-    "eslint": "8.11.0",
-    "eslint-config-react-app": "7.0.0",
-    "eslint-config-standard": "16.0.3",
-    "eslint-config-standard-jsx": "10.0.0",
-    "eslint-config-standard-react": "11.0.1",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "6.0.0",
-    "eslint-plugin-react": "7.29.3",
-    "husky": "7.0.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "typescript": "4.6.2",
-    "vite": "2.8.6",
-    "vite-plugin-dts": "0.9.10",
-    "vite-plugin-linter": "1.1.0",
-    "vite-tsconfig-paths": "3.4.1"
-  },
   "files": [
     "dist"
   ],
@@ -61,5 +34,32 @@
   "bugs": {
     "url": "https://github.com/panhavsilva/boilerplate-lib-vite-react/issues"
   },
-  "homepage": "https://github.com/panhavsilva/boilerplate-lib-vite-react#readme"
+  "homepage": "https://github.com/panhavsilva/boilerplate-lib-vite-react#readme",
+  "peerDependencies": {
+    "react": ">=17.x"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.21",
+    "@types/react": "17.0.40",
+    "@types/react-dom": "17.0.13",
+    "@vitejs/plugin-react": "1.2.0",
+    "babel-eslint": "10.1.0",
+    "eslint": "8.11.0",
+    "eslint-config-react-app": "7.0.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-config-standard-jsx": "10.0.0",
+    "eslint-config-standard-react": "11.0.1",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.0.0",
+    "eslint-plugin-react": "7.29.4",
+    "husky": "7.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "typescript": "4.6.2",
+    "vite": "2.8.6",
+    "vite-plugin-dts": "0.9.10",
+    "vite-plugin-linter": "0.2.4",
+    "vite-tsconfig-paths": "3.4.1"
+  }
 }
